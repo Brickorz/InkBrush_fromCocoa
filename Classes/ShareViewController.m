@@ -2,8 +2,8 @@
 //  ShareViewController.m
 //  testInkBrush1
 //
-//  Created by Chen Li on 9/4/10.
-//  Copyright 2010 Chen Li. All rights reserved.
+//  Created by Brick on 18/3/13.
+//  Copyright 2013 Brick. All rights reserved.
 //
 
 #import "ShareViewController.h"

@@ -2,8 +2,8 @@
 //  Canvas.m
 //  testInkBrush1
 //
-//  Created by Chen Li on 9/2/10.
-//  Copyright 2010 Chen Li. All rights reserved.
+//  Created by Brick on 17/3/13.
+//  Copyright 2013 Brick. All rights reserved.
 //
 
 // For the purpose of demo, I just made this view working. 
@@ -57,7 +57,7 @@ static NSString* kAppId = @"111832852208394";
 	self.arrayAbandonedStrokes = [NSMutableArray array];
 	self.currentSize = 5.0;
 	self.labelSize.text = @"Size: 5";
-	[self setColor:[UIColor blackColor]];
+	[self setColor:[UIColor colorWithWhite:0.0 alpha:0.5]];
 	activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
 	activityIndicator.center = CGPointMake(512, 384);
 	
@@ -255,7 +255,7 @@ static NSString* kAppId = @"111832852208394";
 }
 
 -(IBAction) didClickShare {
-	[sharePopoverController presentPopoverFromRect:CGRectMake(960, 700, 30, 30) inView:self permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+	[sharePopoverController presentPopoverFromRect:CGRectMake(780, 880, 30, 30) inView:self permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 
 -(void) didClickEmail {

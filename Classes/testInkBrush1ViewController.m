@@ -2,8 +2,8 @@
 //  testInkBrush1ViewController.m
 //  testInkBrush1
 //
-//  Created by Chen Li on 9/2/10.
-//  Copyright Chen Li 2010. All rights reserved.
+//  Created by Brick on 17/3/13.
+//  Copyright Brick 2013. All rights reserved.
 //
 
 #import "testInkBrush1ViewController.h"
@@ -39,7 +39,7 @@
 }
 
 - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error {
-	[self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 // Override to allow orientations other than the default portrait orientation.

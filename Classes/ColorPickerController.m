@@ -2,8 +2,8 @@
 //  ColorPickerController.m
 //  testInkBrush1
 //
-//  Created by Chen Li on 9/3/10.
-//  Copyright 2010 Chen Li. All rights reserved.
+//  Created by Brick on 18/3/13.
+//  Copyright 2013 Brick. All rights reserved.
 //
 
 #import "ColorPickerController.h"
@@ -74,7 +74,8 @@
 		int green = data[offset+2]; 
 		int blue = data[offset+3]; 
 		NSLog(@"offset: %i colors: RGB A %i %i %i  %i",offset,red,green,blue,alpha);
-		color = [UIColor colorWithRed:(red/255.0f) green:(green/255.0f) blue:(blue/255.0f) alpha:(alpha/255.0f)];
+		//color = [UIColor colorWithRed:(red/255.0f) green:(green/255.0f) blue:(blue/255.0f) alpha:(alpha/255.0f)];
+        color = [UIColor colorWithRed:(red/255.0f) green:(green/255.0f) blue:(blue/255.0f) alpha:0.5];
 	}
 	
 	// When finished, release the context
